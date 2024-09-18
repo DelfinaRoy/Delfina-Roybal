@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Name - Personal Webpage</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+        }
+        header, footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #111;
+            font-size: 24px;
+            letter-spacing: 2px;
+        }
+        main {
+            margin: 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #f0f0f0;
+        }
+        .contact-form {
+            background-color: #333;
+            padding: 20px;
+            border: 2px solid #555;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #222;
+            color: #f0f0f0;
+            border: none;
+            border-bottom: 2px solid #555;
+        }
+        input[type="submit"] {
+            background-color: #555;
+            cursor: pointer;
+        }
+        a {
+            color: #f0f0f0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Communications Manager | Grad Student | Advocate</p>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>A brief bio about who you are, your interests, and your role at the Urban Indigenous Collective, along with your studies at Columbia University.</p>
+        </section>
+
+        <!-- My Work Section -->
+        <section id="work">
+            <h2>My Work</h2>
+            <p>Details on your work, including current projects with the Urban Indigenous Collective and other communications work you handle. Maybe also add some info on the Missing and Murdered Indigenous People’s Task Force.</p>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Describe your professional experience, key roles, internships, etc. Optionally, embed a downloadable resume below.</p>
+            <p><a href="path/to/your/resume.pdf" download>Download Resume</a></p>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-form">
+                <form action="your-form-handler-url" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Connect with me on social media:</p>
+        <p>
+            <a href="your-linkedin-url">LinkedIn</a> | 
+            <a href="your-twitter-url">Twitter</a> | 
+            <a href="your-other-social-media-url">Other</a>
+        </p>
+    </footer>
+
+</body>
+</html>
